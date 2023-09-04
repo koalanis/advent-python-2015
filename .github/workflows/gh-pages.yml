@@ -1,0 +1,30 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Adjust this branch name as needed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14  # You can adjust the Node.js version
+
+      - name: Build
+        run: npx --ignore-existing --registry=https://npm.pkg.github.com/koalanis advent-pages generate
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages  # Specify the branch for GitHub Pages
+          folder: advent-pages   # Specify the folder to deploy
+          token: ${{ secrets.GITHUB_TOKEN }}
+
