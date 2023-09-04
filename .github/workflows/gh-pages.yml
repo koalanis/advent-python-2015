@@ -22,9 +22,11 @@ jobs:
       
       - name: Set up GitHub Packages Registry
         run: npm config set @OWNER:registry https://npm.pkg.github.com
-
+        env:
+          OWNER: koalanis
+    
       - name: Build
-        run: npx koalanis/advent-pages generate
+        run: npx advent-pages generate
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
