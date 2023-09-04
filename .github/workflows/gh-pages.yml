@@ -24,7 +24,7 @@ jobs:
           echo "@koalanis:registry=https://npm.pkg.github.com" >> ~/.npmrc
 
       - name: Install
-        run: npm install --save @koalanis/advent-pages@1.1.0
+        run: npm install --save @koalanis/advent-pages
 
       - name: Build
         run: npx @koalanis/advent-pages generate
