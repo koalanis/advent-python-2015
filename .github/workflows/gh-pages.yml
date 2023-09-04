@@ -24,7 +24,7 @@ jobs:
         run: npm config set @OWNER:registry https://npm.pkg.github.com
 
       - name: Build
-        run: npx advent-pages generate
+        run: npx koalanis/advent-pages generate
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
