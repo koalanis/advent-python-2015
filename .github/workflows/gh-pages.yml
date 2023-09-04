@@ -16,18 +16,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14  # You can adjust the Node.js version
-      
-      - name: Set up .npmrc
-        run: | 
-          echo -e "registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=\${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
-          cat ~/.npmrc
-      
-      - name: Set up GitHub Packages Registry for npm
-        run: npm config set registry https://npm.pkg.github.com/
+          node-version: 14
       
       - name: Build
-        run:  npx --ignore-existing --registry=https://npm.pkg.github.com/koalanis advent-pages generate
+        run: |
+          echo "//npm.pkg.github.com/:_authToken=\${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
+          npm config set @koalanis:registry=https://npm.pkg.github.com/
+          npx --ignore-existing advent-pages generate
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
