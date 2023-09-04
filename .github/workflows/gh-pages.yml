@@ -3,8 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Adjust this branch name as needed
-
+      - main 
+      
 jobs:
   deploy:
     runs-on: ubuntu-latest

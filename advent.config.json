@@ -3,7 +3,104 @@
   "year": 2015,
   "days": {
     "1": {
+      "partOneDone": true,
+      "partTwoDone": true,
       "codeOne": "./day1/main.py"
+    },
+    "2": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day2/main.py"
+    },
+    "3": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day3/main.py"
+    },
+    "4": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day4/main.py"
+    },
+    "5": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day5/main.py"
+    },
+    "6": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day6/main.py"
+    },
+    "7": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day7/main.py"
+    },
+    "8": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day8/main.py"
+    },
+    "9": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day9/main.py"
+    },
+    "10": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day10/main.py"
+    },
+    "11": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day11/main.py"
+    },
+    "12": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day12/main.py"
+    },
+    "13": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day13/main.py"
+    },
+    "14": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day14/main.py"
+    },
+    "15": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day15/main.py"
+    },
+    "16": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day16/main.py"
+    },
+    "17": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day17/main.py"
+    },
+    "23": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day23/main.py"
+    },
+    "24": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day24/main.py"
+    },
+    "25": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day25/main.py"
     }
   }
 }
