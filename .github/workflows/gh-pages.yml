@@ -21,7 +21,7 @@ jobs:
         run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
       
       - name: Set up GitHub Packages Registry
-        run: npm config set registry https://npm.pkg.github.com
+        run: npm config set @OWNER:registry https://npm.pkg.github.com
 
       - name: Build
         run: npx advent-pages generate
