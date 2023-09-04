@@ -19,7 +19,7 @@ jobs:
           node-version: 14
       
       - name: Build
-        run: npm run exec github:koalanis/advent-pages generate
+        run: npm exec github:koalanis/advent-pages generate
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
