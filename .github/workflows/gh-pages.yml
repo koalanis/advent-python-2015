@@ -19,9 +19,12 @@ jobs:
           node-version: 14  # You can adjust the Node.js version
       - name: Set up .npmrc
         run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
+      
+      - name: Set up GitHub Packages Registry
+        run: npm config set registry https://npm.pkg.github.com
 
       - name: Build
-        run: npx --ignore-existing --registry=https://npm.pkg.github.com/koalanis advent-pages generate
+        run: npx advent-pages generate
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
