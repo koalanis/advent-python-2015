@@ -19,10 +19,7 @@ jobs:
           node-version: 14
       
       - name: Build
-        run: |
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
-          npm config set @koalanis:registry=https://npm.pkg.github.com/
-          npx --ignore-existing advent-pages generate
+        run: npm run exec github:koalanis/advent-pages generate
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
