@@ -17,6 +17,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 14  # You can adjust the Node.js version
+      - name: Set up .npmrc
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
 
       - name: Build
         run: npx --ignore-existing --registry=https://npm.pkg.github.com/koalanis advent-pages generate
