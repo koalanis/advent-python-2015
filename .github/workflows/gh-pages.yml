@@ -19,7 +19,7 @@ jobs:
           node-version: 18
 
       - name: Install
-        run: npm install --save @koalanis/advent-pages
+        run: npm install --save github:koalanis/advent-pages
 
       - name: Build
         run: npx advent-pages generate
