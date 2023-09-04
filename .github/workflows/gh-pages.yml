@@ -20,7 +20,7 @@ jobs:
       - name: Configure npm for GitHub Packages
         run: |
           echo "//npm.pkg.github.com/:_authToken=\${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
-          echo "@github-username:registry=https://npm.pkg.github.com" >> ~/.npmrc
+          echo "@koalanis:registry=https://npm.pkg.github.com" >> ~/.npmrc
 
       - name: Install
         run: npm install --save @koalanis/advent-pages
