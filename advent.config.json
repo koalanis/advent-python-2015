@@ -1,5 +1,9 @@
 {
   "lang": "python",
   "year": 2015,
-  "days": {}
+  "days": {
+    "1": {
+      "codeOne": "./day1/main.py"
+    }
+  }
 }
