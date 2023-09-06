@@ -5,6 +5,7 @@
     "1": {
       "partOneDone": true,
       "partTwoDone": true,
+      "testDataOne": "./day1/data.txt",
       "codeOne": "./day1/main.py"
     },
     "2": {
