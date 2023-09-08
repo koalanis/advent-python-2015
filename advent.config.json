@@ -88,6 +88,11 @@
       "partTwoDone": true,
       "codeOne": "./day17/main.py"
     },
+    "18": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day18/main.py"
+    },
     "23": {
       "partOneDone": true,
       "partTwoDone": true,
