@@ -95,7 +95,7 @@
     },
     "19": {
       "partOneDone": true,
-      "partTwoDone": false,
+      "partTwoDone": true,
       "codeOne": "./day19/main.py"
     },
     "20": {
