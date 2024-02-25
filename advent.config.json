@@ -5,48 +5,48 @@
     "1": {
       "partOneDone": true,
       "partTwoDone": true,
-      "testDataOne": "./day1/data.txt",
-      "codeOne": "./day1/main.py"
+      "testDataOne": "./day01/data.txt",
+      "codeOne": "./day01/main.py"
     },
     "2": {
       "partOneDone": true,
       "partTwoDone": true,
-      "codeOne": "./day2/main.py"
+      "codeOne": "./day02/main.py"
     },
     "3": {
       "partOneDone": true,
       "partTwoDone": true,
-      "codeOne": "./day3/main.py"
+      "codeOne": "./day03/main.py"
     },
     "4": {
       "partOneDone": true,
       "partTwoDone": true,
-      "codeOne": "./day4/main.py"
+      "codeOne": "./day04/main.py"
     },
     "5": {
       "partOneDone": true,
       "partTwoDone": true,
-      "codeOne": "./day5/main.py"
+      "codeOne": "./day05/main.py"
     },
     "6": {
       "partOneDone": true,
       "partTwoDone": true,
-      "codeOne": "./day6/main.py"
+      "codeOne": "./day06/main.py"
     },
     "7": {
       "partOneDone": true,
       "partTwoDone": true,
-      "codeOne": "./day7/main.py"
+      "codeOne": "./day07/main.py"
     },
     "8": {
       "partOneDone": true,
       "partTwoDone": true,
-      "codeOne": "./day8/main.py"
+      "codeOne": "./day08/main.py"
     },
     "9": {
       "partOneDone": true,
       "partTwoDone": true,
-      "codeOne": "./day9/main.py"
+      "codeOne": "./day09/main.py"
     },
     "10": {
       "partOneDone": true,
