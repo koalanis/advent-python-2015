@@ -1,6 +1,6 @@
 # howdy👋
 # so this one as easy but i fell for jumping into a 'neat' / mathy solution and took too long with it
-# its a story about the dance between hustirics, algorithms, and simulations
+# its a story about the dance between heuristics, algorithms, and simulations
 # i jumped into integer factorization and finding the number that way but it didnt work well for large numbers (would hang)
 # so i then tried to incorporate binary search with this. with no luck with this, i decided to look at what this function even looks like
 # https://mathworld.wolfram.com/DivisorFunction.html

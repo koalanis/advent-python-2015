@@ -98,6 +98,21 @@
       "partTwoDone": false,
       "codeOne": "./day19/main.py"
     },
+    "20": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day20/main.py"
+    },
+    "21": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day21/main.py"
+    },
+    "22": {
+      "partOneDone": true,
+      "partTwoDone": true,
+      "codeOne": "./day22/main.py"
+    },
     "23": {
       "partOneDone": true,
       "partTwoDone": true,
